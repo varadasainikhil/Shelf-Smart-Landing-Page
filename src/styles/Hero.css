@@ -147,6 +147,14 @@
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
 }
 
+.mockup-image {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
+  display: block;
+}
+
 .mockup-label {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);

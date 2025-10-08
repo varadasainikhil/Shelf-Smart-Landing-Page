@@ -12,7 +12,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          helmet: ['react-helmet-async'],
         },
         assetFileNames: (assetInfo) => {
           const info = assetInfo.name.split('.')

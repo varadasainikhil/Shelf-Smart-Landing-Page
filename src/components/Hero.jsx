@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="hero-image-wrapper">
               {/* Placeholder for app mockup */}
               <div className="app-mockup">
-                <img src="/images/hero-mockup.png" alt="Shelf Smart app screenshot showing the main pantry view" className="mockup-image" />
+                <img src="/images/iphone-homeview-Photoroom.png" alt="Shelf Smart app screenshot showing the main pantry view" className="mockup-image" />
               </div>
 
               {/* Decorative Elements */}

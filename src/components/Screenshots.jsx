@@ -7,21 +7,21 @@ export default function Screenshots() {
   const screenshots = [
     {
       title: 'Your Digital Pantry',
-      description: 'Get a clear overview of all your groceries. Our color-coded system shows what’s fresh, expiring soon, or past its best.',
+      description: 'Get a clear overview of all your groceries. Our color-coded system shows what\'s fresh, expiring soon, or past its best.',
       alt: 'Shelf Smart home dashboard showing products organized by expiry date',
-      image: '/images/iphone-screenshot-1.jpeg',
+      image: '/images/iphone-homeview-Photoroom.png',
     },
     {
       title: 'Detailed Product View',
       description: 'Dive deeper into each item. See its expiration countdown, add notes, and find relevant recipes instantly.',
       alt: 'Product detail view with expiration date and recipe recommendations',
-      image: '/images/iphone-screenshot-2.jpeg',
+      image: '/images/iphone-detailproductview-Photoroom.png',
     },
     {
       title: 'Waste-Reducing Recipes',
       description: 'Don\'t know what to make? Discover delicious recipes based on the ingredients you have on hand. A perfect way to use up food.',
       alt: 'Recipe discovery screen showing personalized recipe recommendations',
-      image: '/images/iphone-screenshot-3.jpeg',
+      image: '/images/iphone-randomRecipeview-Photoroom.png',
     },
   ];
 
