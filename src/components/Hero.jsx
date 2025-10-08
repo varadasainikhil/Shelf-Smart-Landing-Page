@@ -45,30 +45,7 @@ export default function Hero() {
             <div className="hero-image-wrapper">
               {/* Placeholder for app mockup */}
               <div className="app-mockup">
-                <div className="mockup-placeholder">
-                  <svg width="200" height="400" viewBox="0 0 200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    {/* iPhone Frame */}
-                    <rect x="10" y="10" width="180" height="380" rx="30" fill="var(--color-text)" opacity="0.1"/>
-                    <rect x="15" y="15" width="170" height="370" rx="27" fill="var(--color-background)"/>
-
-                    {/* Screen Content - Simplified UI */}
-                    <rect x="25" y="80" width="150" height="60" rx="12" fill="var(--color-surface)"/>
-                    <rect x="35" y="95" width="60" height="8" rx="4" fill="var(--color-text)" opacity="0.3"/>
-                    <rect x="35" y="110" width="100" height="6" rx="3" fill="var(--color-text)" opacity="0.2"/>
-                    <circle cx="165" cy="110" r="15" fill="var(--color-primary)" opacity="0.3"/>
-
-                    <rect x="25" y="155" width="150" height="60" rx="12" fill="var(--color-surface)"/>
-                    <rect x="35" y="170" width="60" height="8" rx="4" fill="var(--color-text)" opacity="0.3"/>
-                    <rect x="35" y="185" width="100" height="6" rx="3" fill="var(--color-text)" opacity="0.2"/>
-                    <circle cx="165" cy="185" r="15" fill="var(--color-primary)"/>
-
-                    <rect x="25" y="230" width="150" height="60" rx="12" fill="var(--color-surface)"/>
-                    <rect x="35" y="245" width="60" height="8" rx="4" fill="var(--color-text)" opacity="0.3"/>
-                    <rect x="35" y="260" width="100" height="6" rx="3" fill="var(--color-text)" opacity="0.2"/>
-                    <circle cx="165" cy="260" r="15" fill="var(--color-primary)" opacity="0.5"/>
-                  </svg>
-                  <div className="mockup-label">Replace with app screenshot</div>
-                </div>
+                <img src="/images/hero-mockup.png" alt="Shelf Smart app screenshot showing the main pantry view" className="mockup-image" />
               </div>
 
               {/* Decorative Elements */}
