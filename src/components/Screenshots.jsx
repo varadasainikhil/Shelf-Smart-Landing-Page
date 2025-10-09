@@ -8,20 +8,26 @@ export default function Screenshots() {
     {
       title: 'Your Digital Pantry',
       description: 'Get a clear overview of all your groceries. Our color-coded system shows what\'s fresh, expiring soon, or past its best.',
-      alt: 'Shelf Smart home dashboard showing products organized by expiry date',
+      alt: 'Shelf Smart iOS app home screen displaying grocery inventory with color-coded expiration alerts for produce, dairy, and pantry items',
       image: '/images/iphone-homeview-Photoroom.png',
+      width: 351,
+      height: 700
     },
     {
       title: 'Detailed Product View',
       description: 'Dive deeper into each item. See its expiration countdown, add notes, and find relevant recipes instantly.',
-      alt: 'Product detail view with expiration date and recipe recommendations',
+      alt: 'Shelf Smart product detail screen showing milk carton with expiration countdown timer, notes section, and recipe suggestion button',
       image: '/images/iphone-detailproductview-Photoroom.png',
+      width: 734,
+      height: 700
     },
     {
       title: 'Waste-Reducing Recipes',
       description: 'Don\'t know what to make? Discover delicious recipes based on the ingredients you have on hand. A perfect way to use up food.',
-      alt: 'Recipe discovery screen showing personalized recipe recommendations',
+      alt: 'Shelf Smart recipe discovery screen with personalized meal recommendations based on inventory and dietary preferences',
       image: '/images/iphone-randomRecipeview-Photoroom.png',
+      width: 576,
+      height: 700
     },
   ];
 
@@ -43,7 +49,14 @@ export default function Screenshots() {
             <div className="screenshot-frame">
               {/* Placeholder for screenshot */}
               <div className="screenshot-placeholder">
-                <img src={screenshots[activeIndex].image} alt={screenshots[activeIndex].alt} className="screenshot-image" />
+                <img
+                  src={screenshots[activeIndex].image}
+                  alt={screenshots[activeIndex].alt}
+                  className="screenshot-image"
+                  width={screenshots[activeIndex].width}
+                  height={screenshots[activeIndex].height}
+                  loading="lazy"
+                />
               </div>
             </div>
 
