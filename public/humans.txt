@@ -1,0 +1,66 @@
+/* TEAM */
+
+Developer: Shelf Smart Team
+Contact: shelfsmartapp [at] gmail.com
+Location: Alpharetta, GA, United States
+
+/* SITE */
+
+Last update: 2025/10/10
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: React 18, Vite 5
+Software: VS Code, Git, Vercel
+
+/* THANKS */
+
+Font: -apple-system, SF Pro
+Icons: Heroicons
+Hosting: Vercel
+Analytics: Google Analytics 4 / Vercel Analytics
+Authentication: Firebase Auth
+
+/* PROJECT */
+
+App Name: Shelf Smart
+Purpose: Smart grocery expiry tracker and recipe finder
+Platform: iOS 14.0+
+Price: Free
+Features: Barcode scanning, expiry alerts, recipe suggestions, iCloud sync
+Sustainability: Helping reduce food waste one grocery at a time
+
+/* TECH STACK */
+
+Frontend: React 18.3.1, Vite 5.4.11
+Styling: CSS3 with Custom Properties
+Build Tool: Vite with ESBuild
+Deployment: Vercel
+Version Control: Git
+
+/* SEO */
+
+Structured Data: JSON-LD (Schema.org)
+Schemas: SoftwareApplication, FAQPage, Organization, WebSite
+Meta Tags: Open Graph, Twitter Cards
+Sitemap: XML (3 pages)
+Robots: Indexed and crawlable
+
+/* CONTACT */
+
+Email: shelfsmartapp@gmail.com
+Website: https://shelfsmart-one.vercel.app
+Privacy: https://shelfsmart-one.vercel.app/privacy.html
+Terms: https://shelfsmart-one.vercel.app/terms.html
+
+                              ___
+                           .-'   `-.
+                          /         \
+                         |           |
+                         |  ╭─────╮  |
+                         |  │SHELF│  |
+                         |  │SMART│  |
+                         |  ╰─────╯  |
+                          \         /
+                           `-.___.-'
+
+          /* Never waste food again! */

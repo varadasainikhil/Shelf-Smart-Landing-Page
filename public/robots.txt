@@ -1,8 +1,59 @@
+# Shelf Smart - Smart Grocery Expiry Tracker
+# robots.txt for https://shelfsmart-one.vercel.app
+
+# Allow all crawlers
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://www.shelfsmart.app/sitemap.xml
+# Disallow crawling of build artifacts and system files
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Allow crawling of essential files
+Allow: /images/
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /humans.txt
+
+# Sitemap location
+Sitemap: https://shelfsmart-one.vercel.app/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Social media crawlers for rich previews
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

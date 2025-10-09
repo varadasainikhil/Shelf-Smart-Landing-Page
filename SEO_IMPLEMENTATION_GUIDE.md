@@ -290,7 +290,7 @@ if (typeof window !== 'undefined') {
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.shelfsmart.app/privacy.html">
+<meta property="og:url" content="https://shelfsmart-one.vercel.app/privacy.html">
 <meta property="og:title" content="Privacy Policy - Shelf Smart">
 
 <!-- Twitter -->
