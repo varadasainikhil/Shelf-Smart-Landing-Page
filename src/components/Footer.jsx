@@ -9,7 +9,7 @@ export default function Footer() {
       { label: 'How It Works', href: '#how-it-works' },
       { label: 'Screenshots', href: '#screenshots' },
       { label: 'FAQ', href: '#faq' },
-      { label: 'Download', href: 'https://apps.apple.com/app/shelf-smart' },
+      { label: 'Download', href: 'https://apps.apple.com/us/app/shelfsmart/id6752867283' },
     ],
     support: [
       { label: 'Contact Us', href: 'mailto:shelfsmartapp@gmail.com' },

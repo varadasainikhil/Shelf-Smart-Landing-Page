@@ -17,7 +17,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="hero-cta fade-in">
               <a
-                href="https://apps.apple.com/app/shelf-smart"
+                href="https://apps.apple.com/us/app/shelfsmart/id6752867283"
                 className="btn btn-primary btn-large btn-wrap"
                 aria-label="Download Shelf Smart on the App Store"
               >

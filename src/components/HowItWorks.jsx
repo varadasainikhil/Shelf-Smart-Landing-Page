@@ -76,7 +76,7 @@ export default function HowItWorks() {
 
         {/* Bottom CTA */}
         <div className="how-cta">
-          <a href="https://apps.apple.com/app/shelf-smart" className="btn btn-primary btn-large">
+          <a href="https://apps.apple.com/us/app/shelfsmart/id6752867283" className="btn btn-primary btn-large">
             Get Started for Free
           </a>
         </div>

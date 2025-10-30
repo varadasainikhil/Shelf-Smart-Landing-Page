@@ -42,7 +42,7 @@ export default function CTASection() {
 
             {/* Download Button */}
             <a
-              href="https://apps.apple.com/app/shelf-smart"
+              href="https://apps.apple.com/us/app/shelfsmart/id6752867283"
               className="btn btn-primary btn-large cta-button"
               aria-label="Download Shelf Smart on the App Store"
             >

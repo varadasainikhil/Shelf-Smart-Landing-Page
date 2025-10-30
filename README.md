@@ -332,7 +332,7 @@ If you need to add environment variables:
 
 1. Create `.env` file in root:
    ```env
-   VITE_APP_STORE_URL=https://apps.apple.com/app/shelf-smart
+   VITE_APP_STORE_URL=https://apps.apple.com/us/app/shelfsmart/id6752867283
    VITE_CONTACT_EMAIL=support@shelfsmart.app
    ```
 
