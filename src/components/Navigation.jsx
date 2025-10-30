@@ -66,12 +66,12 @@ export default function Navigation() {
           <a href="#home" className="nav-logo" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
             <img
               src="/images/app-icon-64.png"
-              alt="Shelf Smart App Icon"
+              alt="ShelfSmart App Icon"
               width="32"
               height="32"
               className="nav-logo-icon"
             />
-            <span className="nav-logo-text">Shelf Smart</span>
+            <span className="nav-logo-text">ShelfSmart</span>
           </a>
 
           {/* Desktop Navigation */}

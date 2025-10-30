@@ -79,15 +79,15 @@ export default function Footer() {
             <div className="footer-logo">
               <img
                 src="/images/app-icon-64.png"
-                alt="Shelf Smart App Icon"
+                alt="ShelfSmart App Icon"
                 width="32"
                 height="32"
                 className="footer-logo-icon"
               />
-              <span>Shelf Smart</span>
+              <span>ShelfSmart</span>
             </div>
             <p className="footer-tagline">
-              Your smart kitchen companion.
+              Track expiration dates. Discover recipes. Save money. Reduce waste.
             </p>
           </div>
 
@@ -141,7 +141,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <div className="footer-bottom-left">
             <p className="footer-copyright">
-              &copy; {currentYear} Shelf Smart. All rights reserved.
+              &copy; {currentYear} ShelfSmart. All rights reserved.
             </p>
             <p className="footer-made">
               Made with <span className="heart" aria-label="love">♥</span> for a sustainable future

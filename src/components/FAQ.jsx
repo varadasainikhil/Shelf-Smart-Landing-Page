@@ -6,44 +6,52 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: 'How does Shelf Smart help reduce food waste?',
-      answer: 'Shelf Smart tracks your grocery expiration dates and sends you timely notifications before food spoils. It also suggests recipes based on items that are expiring soon, helping you use ingredients before they go to waste. Our color-coded system makes it easy to see what needs to be used first.'
+      question: 'How does ShelfSmart help reduce food waste?',
+      answer: 'ShelfSmart tracks your food expiration dates with a color-coded system (Green for 7+ days, Yellow for 3-6 days, Red for expired) and sends automatic notifications 7 days before and on expiration date. It suggests recipes based on items that are expiring soon, helping you reduce household food waste by up to 25% and save over $1,500 per year.'
     },
     {
-      question: 'Is Shelf Smart free to use?',
-      answer: 'Yes! Shelf Smart is completely free with no hidden costs, subscriptions, or in-app purchases. All features including barcode scanning, expiry tracking, notifications, recipe suggestions, and iCloud sync are available at no charge.'
+      question: 'How does the barcode scanner work?',
+      answer: 'Our lightning-fast barcode scanner supports EAN13 and UPC barcodes. Simply point your camera at any product barcode to instantly retrieve product information including name, brand, and ingredients from our comprehensive global database. You can also manually add fresh produce and homemade items.'
     },
     {
-      question: 'Does Shelf Smart work offline?',
-      answer: 'Yes, Shelf Smart works offline. All your grocery data is stored locally on your device, so you can access your inventory, add items, and view recipes even without an internet connection. iCloud sync requires connectivity but your core data remains accessible offline.'
+      question: 'What are the color-coded expiration alerts?',
+      answer: 'ShelfSmart uses an intuitive visual system: Green means fresh (7+ days remaining), Yellow means use soon (3-6 days remaining), and Red means expiring today or already expired. This makes it easy to see at a glance what needs to be used first, helping you plan meals efficiently.'
     },
     {
-      question: 'Can I sync my grocery list across multiple devices?',
-      answer: 'Absolutely! Shelf Smart uses iCloud to automatically sync your grocery inventory across all your iOS devices (iPhone and iPad). Add an item on your iPhone, and it instantly appears on your iPad. Your account and preferences are always in sync.'
+      question: 'Does ShelfSmart manage food allergies and dietary restrictions?',
+      answer: 'Yes! Set your allergies once and stay protected. ShelfSmart supports 12 common food intolerances including dairy, egg, gluten, grain, peanut, seafood, sesame, shellfish, soy, sulfite, tree nut, and wheat. All recipe recommendations are automatically filtered for your safety. Ideal for families with multiple dietary needs.'
     },
     {
-      question: 'How do I add groceries to Shelf Smart?',
-      answer: 'There are two easy ways to add groceries: 1) Scan the product barcode for instant entry with auto-filled details, or 2) Manually enter the product name, category, and expiration date. Both methods take just seconds and help you build your digital pantry quickly.'
+      question: 'Can I use Sign in with Apple?',
+      answer: 'Absolutely! ShelfSmart supports Sign in with Apple, so you can sign in securely without providing an email address. Your privacy is protected, and authentication is handled entirely by Apple. You can also delete your account and data anytime directly from the app.'
     },
     {
-      question: 'What types of notifications does Shelf Smart send?',
-      answer: 'Shelf Smart sends customizable push notifications at intervals you choose (1 day, 3 days, 1 week before expiration). You can adjust notification timing in settings to match your shopping and cooking habits. Never miss an expiring item again!'
+      question: 'Is ShelfSmart free to use?',
+      answer: 'Yes! ShelfSmart is completely free with no hidden costs, subscriptions, or in-app purchases. All features including barcode scanning, expiry tracking, color-coded alerts, notifications, recipe discovery with filtering, allergy management, and iCloud sync are available at no charge.'
     },
     {
-      question: 'Does Shelf Smart suggest recipes based on my ingredients?',
-      answer: 'Yes! Shelf Smart\'s intelligent recipe engine recommends meals based on ingredients you have, prioritizing items nearing expiration. You can also search our extensive recipe database with filters for dietary restrictions (vegan, gluten-free), cuisine types, allergens, and meal types.'
+      question: 'How do recipe filters and "Surprise Me" work?',
+      answer: 'Discover thousands of recipes based on your pantry items. Filter by cuisine (Italian, Asian, Mexican, Mediterranean), diet (Vegan, Vegetarian, Keto, Paleo, Whole30), and meal type (Breakfast, Lunch, Dinner, Snacks, Desserts). Use "Surprise Me" for random recipe inspiration. All recipes include ingredients, step-by-step instructions, prep time, servings, and health scores.'
     },
     {
-      question: 'What iOS version do I need to run Shelf Smart?',
-      answer: 'Shelf Smart requires iOS 14.0 or later. It\'s optimized for all iPhone and iPad models running this version, ensuring smooth performance and access to all features including barcode scanning, notifications, and iCloud sync.'
+      question: 'Can I sync across multiple devices?',
+      answer: 'Yes! ShelfSmart uses seamless iCloud Sync to automatically keep your pantry inventory up-to-date across all your iPhone and iPad devices. Smart notifications sync across all devices too. Your data stays private and secure in your iCloud, and offline mode is available for viewing products and recipes.'
+    },
+    {
+      question: 'What types of notifications does ShelfSmart send?',
+      answer: 'ShelfSmart sends automatic push notifications 7 days before food expires and on the expiration date itself. Notifications sync across all your devices, so you stay informed whether you\'re on your iPhone or iPad. Never miss an expiring item again!'
     },
     {
       question: 'Is my data private and secure?',
-      answer: 'Your privacy is our priority. All your grocery data is stored locally on your device and synced via your personal iCloud account—we never have access to it. Authentication is handled securely by Google Firebase. We don\'t sell or share your personal information. Read our Privacy Policy for complete details.'
+      answer: 'Your kitchen, your data, your privacy. Sign in with Apple is supported with no email required. All data is stored securely in your personal iCloud account—we never have access to it. There\'s no advertising or data selling. ShelfSmart is fully GDPR compliant, and you can delete your account and data anytime.'
     },
     {
-      question: 'Can I track different storage locations (pantry, fridge, freezer)?',
-      answer: 'Yes! Shelf Smart allows you to categorize items by storage location and type. You can organize groceries by pantry, refrigerator, freezer, or create custom categories. This helps you quickly find items and manage different storage areas efficiently.'
+      question: 'What iOS version do I need?',
+      answer: 'ShelfSmart requires iOS 14.0 or later. It\'s built entirely in SwiftUI with full Dark Mode support, smooth animations, and haptic feedback. The app is optimized for all iPhone sizes and follows Apple Human Interface Guidelines for a native iOS experience.'
+    },
+    {
+      question: 'Can I track different storage locations?',
+      answer: 'Yes! ShelfSmart allows you to organize items by storage location. Track items in your pantry, fridge, and freezer separately. This helps you quickly find items and efficiently manage different storage areas in your kitchen.'
     }
   ];
 
@@ -58,7 +66,7 @@ export default function FAQ() {
         <div className="section-header text-center">
           <h2 className="section-title">Frequently Asked Questions</h2>
           <p className="section-description">
-            Everything you need to know about Shelf Smart
+            Everything you need to know about ShelfSmart
           </p>
         </div>
 

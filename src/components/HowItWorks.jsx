@@ -4,8 +4,8 @@ export default function HowItWorks() {
   const steps = [
     {
       number: '01',
-      title: 'Add Groceries in Seconds',
-      description: 'Add products by entering their barcode or by manual entry to quickly add items to your digital pantry. Set expiration dates with a few taps.',
+      title: 'Scan & Add Items',
+      description: 'Use our lightning-fast barcode scanner to add products instantly with EAN13/UPC codes. Manually add fresh produce and homemade items. Set expiration dates with a few taps.',
       icon: (
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M1 1v6h6V1H1zm2 2h2v2H3V3zm8-2v6h6V1h-6zm2 2h2v2h-2V3zM1 15v6h6v-6H1zm2 2h2v2H3v-2zm8-2v6h6v-6h-6zm2 2h2v2h-2v-2z"/>
@@ -16,8 +16,8 @@ export default function HowItWorks() {
     },
     {
       number: '02',
-      title: 'Stay Ahead of Spoilage',
-      description: 'Our intuitive dashboard gives you a clear view of what you have. Color-coded alerts show you what to use next.',
+      title: 'Track with Color Codes',
+      description: 'Your pantry dashboard shows color-coded status at a glance: Green for fresh (7+ days), Yellow for expiring soon (3-6 days), Red for expired. Get automatic notifications 7 days before expiration.',
       icon: (
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M21.21 15.89A10 10 0 118 2.83M22 12A10 10 0 0012 2v10z"/>
@@ -26,8 +26,8 @@ export default function HowItWorks() {
     },
     {
       number: '03',
-      title: 'Cook, Don\'t Waste',
-      description: 'Get timely notifications and discover recipes for your ingredients. Turn what you have into meals you love.',
+      title: 'Discover & Cook',
+      description: 'Find recipes based on your pantry items. Filter by cuisine, diet, and meal type. Use "Surprise Me" for inspiration. Save money by using what you already have and reduce waste by up to 25%.',
       icon: (
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M18.36 4.64a9 9 0 10-12.72 0"/>

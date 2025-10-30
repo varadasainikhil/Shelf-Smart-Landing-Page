@@ -6,25 +6,25 @@ export default function Screenshots() {
 
   const screenshots = [
     {
-      title: 'Your Digital Pantry',
-      description: 'Get a clear overview of all your groceries. Our color-coded system shows what\'s fresh, expiring soon, or past its best.',
-      alt: 'Shelf Smart iOS app home screen displaying grocery inventory with color-coded expiration alerts for produce, dairy, and pantry items',
+      title: 'Color-Coded Expiry Tracking',
+      description: 'Your pantry organized by expiration date with visual status indicators: Green for fresh (7+ days), Yellow for expiring soon (3-6 days), Red for expired. Never let food go bad again.',
+      alt: 'ShelfSmart iOS app home screen displaying pantry inventory with color-coded expiration alerts - green, yellow, and red status indicators',
       image: '/images/iphone-homeview-Photoroom.png',
       width: 351,
       height: 700
     },
     {
-      title: 'Detailed Product View',
-      description: 'Dive deeper into each item. See its expiration countdown, add notes, and find relevant recipes instantly.',
-      alt: 'Shelf Smart product detail screen showing milk carton with expiration countdown timer, notes section, and recipe suggestion button',
+      title: 'Product Details & Barcode Scanning',
+      description: 'View detailed product information retrieved via barcode scanning. Track expiration countdown, add notes, manage consumption, and get instant recipe recommendations for each item.',
+      alt: 'ShelfSmart product detail screen showing item information, expiration countdown timer, and barcode scanning integration',
       image: '/images/iphone-detailproductview-Photoroom.png',
       width: 734,
       height: 700
     },
     {
-      title: 'Waste-Reducing Recipes',
-      description: 'Don\'t know what to make? Discover delicious recipes based on the ingredients you have on hand. A perfect way to use up food.',
-      alt: 'Shelf Smart recipe discovery screen with personalized meal recommendations based on inventory and dietary preferences',
+      title: 'Smart Recipe Discovery',
+      description: 'Find thousands of recipes filtered by your pantry items. Filter by cuisine, diet (Vegan, Keto, Paleo), and meal type. All recipes automatically filtered for your allergies and dietary restrictions.',
+      alt: 'ShelfSmart recipe discovery screen with smart filtering options for cuisine, diet type, and personalized meal recommendations',
       image: '/images/iphone-randomRecipeview-Photoroom.png',
       width: 576,
       height: 700
@@ -36,9 +36,9 @@ export default function Screenshots() {
       <div className="container">
         {/* Section Header */}
         <div className="section-header text-center">
-          <h2 className="section-title">A Joy to Use</h2>
+          <h2 className="section-title">Beautiful Design Meets Powerful Features</h2>
           <p className="section-description">
-            Designed with iOS guidelines in mind, Shelf Smart feels right at home on your device. It’s powerful, yet simple and intuitive.
+            Built entirely in SwiftUI with full Dark Mode support. ShelfSmart follows Apple Human Interface Guidelines, delivering a powerful yet simple and intuitive experience.
           </p>
         </div>
 
